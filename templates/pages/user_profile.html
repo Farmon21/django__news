@@ -1,0 +1,38 @@
+{% extends 'news/base.html' %}
+{% load static %}
+{% block title %} {{ request.user.username }}'s profiles{% endblock title %}
+{% block content %}
+    <h3>Xush kelibsiz, {{ user.first_name }}</h3>
+    <h3><a href="{% url 'logout' %}" style="color: red">Log out</a> </h3>
+    <button style="color: black; padding: 4px; border: 1px solid black;">
+        <a href="{% url 'password_reset' %}">Parolni tiklash</a>
+    </button>
+    <h2>Siz haqingizdagi ma'lumotlar</h2> <br>
+    <img src="{{ profile.photo.url }}" alt=""> <br>
+    <label>Username: </label> <input value="{{ user.username }}" readonly placeholder="Kiritilmagan"> <br><br>
+    <label>Email: </label> <input value="{{ user.email }}" readonly placeholder="Kiritilmagan"> <br><br>
+    <label>Ismingiz: </label> <input value="{{ user.first_name }}" readonly placeholder="Kiritilmagan"> <br><br>
+    <label>Familyangiz: </label> <input value="{{ user.last_name }}" readonly placeholder="Kiritilmagan"> <br><br>
+    <hr style="color: blue;">
+    <button style="color: black; padding: 4px; border: 1px solid black;">
+        <a href="{% url 'password_change' %}">Parolni almashtirish</a>
+    </button>
+    <h4> <a style="color: red;" href="{% url 'edit_user_information' %}">Profile tahrirlash</a> </h4>
+    <br>
+    <div class="" style="width: 90%">
+        {% for local in user.news.all %}
+            <div class="row" style="margin-top: 100px">
+                <div class="col-sm-12">
+                    <a href="{% url 'news_detail_page' local.slug %}">
+                        <img src="{{ local.image.url }}" alt="" style="max-width: 900px">
+                    </a>
+                    <a href="{% url 'news_detail_page' local.slug %}">
+                        <h3>{{ local.title | slice:":35" }}</h3>
+                    </a>
+                    <p>{{ local.body | slice:":50" }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock content %}

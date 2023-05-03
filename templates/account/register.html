@@ -1,0 +1,25 @@
+{% extends 'news/base.html' %}
+{% load i18n %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block title %}{% blocktranslate %}Ro'yxatdan o'tkazish{% endblocktranslate %}{% endblock title %}
+{% block content %}
+    <h1>{% blocktranslate %}Yangi foydalanuvchilarni ro'yxatdan o'tkazish{% endblocktranslate %}</h1>
+    <p>{% blocktranslate %}Ro'yxatdan o'tkazish uchun quyidagi formani to'ldiring: {% endblocktranslate %}</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form method="post">
+                    {% csrf_token %}
+                    {{ user_form | crispy }} <br>
+                    <button class="btn btn-success" type="submit">
+                        {% blocktranslate %}Registration{% endblocktranslate %}
+                    </button>
+                    <a href="{% url 'login' %}" class="btn btn-danger" type="submit">
+                        {% blocktranslate %}Open with Login{% endblocktranslate %}
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

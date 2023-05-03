@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-jazzmin = "*"
+pillow = "*"
+django-hitcount = "*"
+django-crispy-forms = "*"
+crispy-bootstrap5 = "*"
+django-modeltranslation = "*"
+python-decouple = "*"
+whitenoise = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

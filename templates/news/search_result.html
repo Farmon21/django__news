@@ -1,0 +1,21 @@
+{% extends 'news/base.html' %}
+{% load i18n %}
+{% load static %}
+{% block title %} {% blocktrans %}Qidiruv natijalari{% endblocktrans %} {% endblock title %}
+{% block content %}
+    <div class="container" style="width: 90%;">
+        <h1>{% blocktrans %}Qidiruv natijalari{% endblocktrans %}</h1> <br><br>
+        {% for news in all_news %}
+            <a href="{{ news.get_absolute_url }}">
+                <div class="card mb-3 box">
+                    <img src="{{ news.image.url }}" class="card-img-top
+                    img-fluid img-thumbnail" alt="..." style="width: 150%;">
+                    <div class="card-body">
+                        <h4 class="card-title text-bold">{{ news.title | slice:":60" }}...</h4>
+                        <p class="card-text text-bold">{{ news.body | slice:":50" }}..</p>
+                    </div>
+                </div><br><br>
+            </a>
+        {% endfor %}
+    </div>
+{% endblock content %}

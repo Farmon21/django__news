@@ -1,0 +1,474 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-14 18:02+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: config/settings.py:108
+msgid "Uzbek"
+msgstr ""
+
+#: config/settings.py:109
+msgid "English"
+msgstr ""
+
+#: config/settings.py:110
+msgid "Russian"
+msgstr ""
+
+#: templates/account/profile_edit.html:5 templates/account/profile_edit.html:7
+msgid "Foydalanuvchi ma'lumotlarini o'zgartirish"
+msgstr "Change user information"
+
+#: templates/account/profile_edit.html:8
+#, fuzzy
+#| msgid ""
+#| "Siz o'zingiz haqingizdagi ma'lumotlarni quyidagi forma orqali o'zgartiri\n"
+#| "        shiziz mumkin: "
+msgid ""
+"Siz o'zingiz haqingizdagi ma'lumotlarni quyidagi forma orqali "
+"o'zgartirishiziz mumkin: "
+msgstr "You can change your information using the following form:"
+
+#: templates/account/profile_edit.html:17
+msgid "O'zgarishlarni saqlash"
+msgstr "Save changes"
+
+#: templates/account/register.html:5
+msgid "Ro'yxatdan o'tkazish"
+msgstr "Registration"
+
+#: templates/account/register.html:7
+msgid "Yangi foydalanuvchilarni ro'yxatdan o'tkazish"
+msgstr "Registration of new users"
+
+#: templates/account/register.html:8
+msgid "Ro'yxatdan o'tkazish uchun quyidagi formani to'ldiring: "
+msgstr "To register, fill out the following form:"
+
+#: templates/account/register.html:16 templates/news/base.html:90
+#: templates/registration/login.html:17
+msgid "Registration"
+msgstr "Registration"
+
+#: templates/account/register.html:19
+msgid "Open with Login"
+msgstr ""
+
+#: templates/account/register_done.html:4
+#, fuzzy
+#| msgid "Muvaffaqiyatli ro'yxatdan o'tdingiz"
+msgid " Muvaffaqiyatli ro'yxatdan o'tdingiz"
+msgstr "You have successfully registered"
+
+#: templates/account/register_done.html:6
+msgid " tabriklaymiz ro'yxatdan muvaffaqiyatli o'tdingiz"
+msgstr "Congratulations, you have successfully registered"
+
+#: templates/account/register_done.html:7
+msgid "Endi saytga"
+msgstr "Now to the site"
+
+#: templates/account/register_done.html:7
+#: templates/registration/password_reset_complete.html:8
+#, fuzzy
+#| msgid "Login"
+msgid "login"
+msgstr "Login"
+
+#: templates/account/register_done.html:8
+msgid "qilishiz mumkin"
+msgstr "you can do"
+
+#: templates/crud/news_create.html:5
+msgid "  Yangilik qo'shish "
+msgstr "Add news"
+
+#: templates/crud/news_create.html:7
+msgid "Yangilik qo'shish sahifasi"
+msgstr "Add new page"
+
+#: templates/crud/news_create.html:11
+msgid "Yangilikni yuklash"
+msgstr "Upload news"
+
+#: templates/crud/news_delete.html:4
+msgid " Yangilikni o'chirish"
+msgstr "Turn off news"
+
+#: templates/crud/news_delete.html:7
+msgid "Joriy yangilikni o'chirish"
+msgstr "Delete current news"
+
+#: templates/crud/news_delete.html:11
+#, fuzzy
+#| msgid "Joriy yangilikni o'chirish"
+msgid "sarlavhali yangilikni o'chirmoqchimisiz"
+msgstr "Delete current news"
+
+#: templates/crud/news_delete.html:12
+msgid "O'chirishni yakunlash"
+msgstr "Complete the deletion"
+
+#: templates/crud/news_edit.html:5
+msgid "Yangilikni tahrirlash"
+msgstr "Editing news"
+
+#: templates/crud/news_edit.html:7
+msgid "Joriy yangilikni tahrirlash"
+msgstr "Edit current news"
+
+#: templates/crud/news_edit.html:16
+msgid "Tahrirlashni yakunlash"
+msgstr "Finish editing"
+
+#: templates/news/base.html:6
+msgid "Asosiy sahifa"
+msgstr "Main page"
+
+#: templates/news/base.html:65
+msgid "BOSH SAHIFA"
+msgstr "Home Page"
+
+#: templates/news/base.html:66
+msgid "BIZ BILAN BOG'LANISH"
+msgstr "CONTACT US"
+
+#: templates/news/base.html:69
+msgid "ADMIN SAHIFASI"
+msgstr "ADMIN'S PAGE"
+
+#: templates/news/base.html:80
+msgid "Log out"
+msgstr "Log out"
+
+#: templates/news/base.html:85
+msgid "My profile"
+msgstr "My profile"
+
+#: templates/news/base.html:138 templates/news/home.html:50
+msgid "Mahalliy"
+msgstr "Local"
+
+#: templates/news/base.html:139 templates/news/home.html:86
+msgid "Xorij"
+msgstr "Foreign"
+
+#: templates/news/base.html:140 templates/news/home.html:118
+msgid "Texnologiya"
+msgstr "Technology"
+
+#: templates/news/base.html:141 templates/news/home.html:187
+msgid "Sport"
+msgstr "Sport"
+
+#: templates/news/base.html:142
+msgid "Biz bilan aloqa"
+msgstr "Contact us"
+
+#: templates/news/base.html:178
+msgid "Latest News"
+msgstr "Latest News"
+
+#: templates/news/base.html:225
+msgid "Kategoriyalar"
+msgstr "Categories"
+
+#: templates/news/contact.html:4
+#, fuzzy
+#| msgid "Biz bilan aloqa"
+msgid "Biz bilan aloqa sahifasi"
+msgstr "Contact us"
+
+#: templates/news/contact.html:11
+#, fuzzy
+#| msgid "Biz bilan aloqa"
+msgid "Biz bilan bog'lanish"
+msgstr "Contact us"
+
+#: templates/news/contact.html:12
+#, fuzzy
+#| msgid "Ro'yxatdan o'tkazish uchun quyidagi formani to'ldiring: "
+msgid "Biz bilan bog'lanish uchun formani to'ldiring"
+msgstr "To register, fill out the following form:"
+
+#: templates/news/home.html:16 templates/news/home.html:32
+#: templates/news/home.html:59 templates/news/home.html:74
+#: templates/news/home.html:94 templates/news/home.html:107
+#: templates/news/home.html:126 templates/news/home.html:139
+#: templates/news/home.html:196 templates/news/home.html:211
+msgid "Ko'rilganlar soni"
+msgstr "Number of views"
+
+#: templates/news/home.html:24
+msgid "So'nggi yangiliklar"
+msgstr "Latest news"
+
+#: templates/news/home.html:152
+msgid "Photography"
+msgstr "Photography"
+
+#: templates/news/home.html:226
+msgid "Ommabop"
+msgstr "Popular"
+
+#: templates/news/home.html:296
+msgid "Sponsor"
+msgstr "Sponsor"
+
+#: templates/news/home.html:299
+#, fuzzy
+#| msgid "Kategoriyalar"
+msgid "Barcha kategoriyalar"
+msgstr "Categories"
+
+#: templates/news/home.html:301
+#, fuzzy
+#| msgid "Kategoriyalar"
+msgid "Kategoriyani tanlang"
+msgstr "Categories"
+
+#: templates/news/home.html:310
+msgid "Blog"
+msgstr "Blog"
+
+#: templates/news/home.html:311
+msgid "Rss Feed"
+msgstr "Rss Feed"
+
+#: templates/news/home.html:312
+msgid "Login"
+msgstr "Login"
+
+#: templates/news/home.html:313
+msgid "Life &amp; Style"
+msgstr "Life &amp; Style"
+
+#: templates/news/news_detail.html:27
+#, fuzzy
+#| msgid "Tahrirlashni yakunlash"
+msgid "Tahrirlash"
+msgstr "Finish editing"
+
+#: templates/news/news_detail.html:31
+#, fuzzy
+#| msgid "O'chirishni yakunlash"
+msgid "O'chirish"
+msgstr "Complete the deletion"
+
+#: templates/news/news_detail.html:51
+msgid "Izoh qoldirish"
+msgstr "Leave a comment"
+
+#: templates/news/news_detail.html:55
+msgid "Yuborish"
+msgstr "Sending"
+
+#: templates/news/news_detail.html:61
+msgid "Faqat ro'yxatdan o'tgan foydalanuvchilar izoh qoldirishi mumkin"
+msgstr "Only registered users can post comments"
+
+#: templates/news/news_detail.html:62
+#, fuzzy
+#| msgid "Ro'yxatdan o'tkazish"
+msgid "ro'yxatdan o'ting"
+msgstr "Registration"
+
+#: templates/news/search_result.html:4 templates/news/search_result.html:7
+msgid "Qidiruv natijalari"
+msgstr "Search results"
+
+#: templates/pages/admin_page.html:4 templates/pages/admin_page.html:6
+#, fuzzy
+#| msgid "Asosiy sahifa"
+msgid "Adminlar sahifasi"
+msgstr "Admin page"
+
+#: templates/pages/admin_page.html:7
+#, fuzzy
+#| msgid "Kategoriyalar"
+msgid "Barcha adminlar"
+msgstr "All admins"
+
+#: templates/pages/admin_page.html:10
+msgid "Username"
+msgstr "Username"
+
+#: templates/pages/admin_page.html:11
+msgid "Ismi"
+msgstr "Name"
+
+#: templates/pages/admin_page.html:12
+msgid "Familyasi"
+msgstr "Family"
+
+#: templates/pages/admin_page.html:24
+msgid "+Yangilik qo'shish"
+msgstr "+ Add news"
+
+#: templates/registration/logged_out.html:5
+msgid "Logout sahifasi"
+msgstr ""
+
+#: templates/registration/logged_out.html:8
+msgid "Web-saytdan chiqdingiz"
+msgstr ""
+
+#: templates/registration/logged_out.html:9
+msgid "Siz web-saytdan chiqdingiz"
+msgstr ""
+
+#: templates/registration/logged_out.html:10
+msgid "Qaytadan kirish"
+msgstr ""
+
+#: templates/registration/login.html:5
+#, fuzzy
+#| msgid "Asosiy sahifa"
+msgid "Login sahifasi"
+msgstr "Admin page"
+
+#: templates/registration/login.html:11
+msgid "Web-saytga kirish | login"
+msgstr ""
+
+#: templates/registration/login.html:12
+#, fuzzy
+#| msgid "Ro'yxatdan o'tkazish uchun quyidagi formani to'ldiring: "
+msgid "Saytga kirish uchun quyidagi formani to'ldiring"
+msgstr "To register, fill out the following form:"
+
+#: templates/registration/password_change_done.html:4
+#: templates/registration/password_change_done.html:6
+#, fuzzy
+#| msgid "Foydalanuvchi malumotlarini o'zgartirish"
+msgid "Foydalanuvchi paroli o'zgardi"
+msgstr "Change user informations"
+
+#: templates/registration/password_change_done.html:7
+msgid "Sizning parolingiz muvaffaqiyatli o'zgartirildi"
+msgstr ""
+
+#: templates/registration/password_change_done.html:8
+#, fuzzy
+#| msgid "Asosiy sahifa"
+msgid "Asosiy sahifaga qaytish"
+msgstr "Main page"
+
+#: templates/registration/password_change_form.html:5
+#, fuzzy
+#| msgid "Yangilik qo'shish sahifasi"
+msgid "Parolni o'zgartirish sahifasi"
+msgstr "Add new page"
+
+#: templates/registration/password_change_form.html:7
+#: templates/registration/password_change_form.html:16
+#, fuzzy
+#| msgid "Foydalanuvchi malumotlarini o'zgartirish"
+msgid "Parolni o'zgartirish"
+msgstr "Change user informations"
+
+#: templates/registration/password_change_form.html:8
+#, fuzzy
+#| msgid "Ro'yxatdan o'tkazish uchun quyidagi formani to'ldiring: "
+msgid "Parolni o'zgartirish uchun, quyidagi formani to'ldiring"
+msgstr "To register, fill out the following form:"
+
+#: templates/registration/password_reset_complete.html:4
+#, fuzzy
+#| msgid "Foydalanuvchi malumotlarini o'zgartirish"
+msgid "Foydalanuvchi paroli tiklanmoqda"
+msgstr "Change user informations"
+
+#: templates/registration/password_reset_complete.html:6
+msgid "Parolingiz o'zgartirildi"
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:7
+msgid "Sizning parolingiz qayta tiklandi. Endi qayta"
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:8
+#, fuzzy
+#| msgid "qilishiz mumkin"
+msgid "qilishingiz mumkin"
+msgstr "you can do"
+
+#: templates/registration/password_reset_confirm.html:5
+#, fuzzy
+#| msgid "Foydalanuvchi malumotlarini o'zgartirish"
+msgid "Foydalanuvchi parolini tiklash"
+msgstr "Change user informations"
+
+#: templates/registration/password_reset_confirm.html:7
+#: templates/registration/password_reset_form.html:7
+#, fuzzy
+#| msgid "Yangilikni tahrirlash"
+msgid "Parolni tiklash"
+msgstr "Editing news"
+
+#: templates/registration/password_reset_confirm.html:8
+#, fuzzy
+#| msgid "Ro'yxatdan o'tkazish uchun quyidagi formani to'ldiring: "
+msgid "Parolni o'zgartirish uchun quyidagi formani to'ldiring"
+msgstr "To register, fill out the following form:"
+
+#: templates/registration/password_reset_confirm.html:10
+msgid "Iltimos yangi parolni ikki marotaba kiriting"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:15
+msgid "Parolni almashtirish"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:19
+msgid ""
+"Siz noto'g'ri linkdan foydalandingiz, u avvalroq foydalanilgan bo'lishi va "
+"ishlatilish vaqti o'tib ketgan bo'lishi mumkin"
+msgstr ""
+
+#: templates/registration/password_reset_done.html:4
+msgid "Emailga xabar yuborildi"
+msgstr ""
+
+#: templates/registration/password_reset_done.html:6
+msgid "Parolni o'zgartirish emaili yuborildi"
+msgstr ""
+
+#: templates/registration/password_reset_done.html:7
+msgid ""
+"Parolni o'zgartirish uchun sizning emailingizga parolni tiklash uchun link "
+"yuborildi"
+msgstr ""
+
+#: templates/registration/password_reset_done.html:8
+msgid "Agar siz email qabul qilmagan bo'lsangiz, qaytadan urinib ko'ring"
+msgstr ""
+
+#: templates/registration/password_reset_form.html:5
+#, fuzzy
+#| msgid "Yangilik qo'shish sahifasi"
+msgid "Parolni tiklash sahifasi"
+msgstr "Add new page"
+
+#: templates/registration/password_reset_form.html:8
+msgid "Parolni tiklash uchun e-mail addresni kiriting"
+msgstr ""
+
+#: templates/registration/password_reset_form.html:13
+msgid "Emailga jo'natish"
+msgstr ""

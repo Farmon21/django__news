@@ -1,0 +1,71 @@
+{% extends 'news/base.html' %}
+{% load i18n %}
+{% load static %}
+{% load hitcount_tags %}
+{% load crispy_forms_tags %}
+{% block title %} {{ news.title }} {% endblock title %}
+
+{% block content %}
+    <div class="container" style="width: 90%;">
+        <div class="row" style="margin: 150px 0;">
+            <div class="col">
+            <div class="card mb-3 box" >
+                <img style="width: 100%" src="{{ news.image.url }}" class="card-img-top img-fluid img-thumbnail" alt="...">
+                <div class="card-body"> <br>
+                    <h5>{{ news.publish_time }} |  <i style="margin-left: 7px;" class="fa-solid fa-eye" aria-hidden="true"></i> {% get_hit_count for news %}
+                     <i class="fa-solid fa-comment">{{ comment_count }}</i>
+                    </h5>
+
+
+                    <h4 class="card-title text-bold">{{ news.title }}...</h4>
+                    <p class="card-text text-bold text-greey">{{ news.body }}...</p>
+                </div>
+                </div>
+                {% if request.user.is_superuser %}
+                <div class="cart-footer text-center">
+                    <a href="{% url 'news_update' news.slug %}">
+                        {% blocktrans %}Tahrirlash{% endblocktrans %}
+                    </a>
+                    |
+                    <a href="{% url 'news_delete' news.slug %}">
+                        {% blocktrans %}O'chirish{% endblocktrans %}
+                    </a>
+                </div>
+                {% endif %}
+
+                {% for comment in comments %}
+                    <div class="comments" style="padding: 10px">
+                        <p class="font-weight-bold">
+                            {{ comment.user }}
+                            <span class="text-muted font-weight-normal">
+                                {{ comment.created_time }}
+                            </span>
+                        </p>
+                        {{ comment.body | linebreaks }}
+                    </div>
+                {% endfor %}
+
+                {% if user.is_authenticated %}
+                <div class="col-md-8 card mb-4 mt-3">
+                    <div class="card-body">
+                        <h3>{% blocktrans %}Izoh qoldirish{% endblocktrans %}</h3>
+                        <form method="post" style="margin-top: 1.3em" >
+                            {% csrf_token %}
+                            {{ comment_form | crispy }} <br>
+                            <button type="submit" class="btn btn-primary btn-lg">{% blocktrans %}Yuborish{% endblocktrans %}</button>
+                        </form>
+                    </div>
+                </div>
+                {% else %}
+                <div class="card-body">
+                    <p class="text-danger">{% blocktrans %}Faqat ro'yxatdan o'tgan foydalanuvchilar izoh qoldirishi mumkin{% endblocktrans %}</p>
+                    <p>Izoh qoldirish uchun <a style="color: #0a53be;" href="{% url 'user_register' %}">{% blocktrans %}ro'yxatdan o'ting{% endblocktrans %}</a>
+                        yoki <a style="color: #0a53be" href="{% url 'login' %}">Saytga kiring</a> </p>
+                </div>
+                {% endif %}
+
+            </div>
+        </div>
+        </div>
+
+{% endblock content %}

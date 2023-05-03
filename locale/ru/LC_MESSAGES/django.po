@@ -1,0 +1,309 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-14 17:45+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: config/settings.py:108
+msgid "Uzbek"
+msgstr ""
+
+#: config/settings.py:109
+msgid "English"
+msgstr ""
+
+#: config/settings.py:110
+msgid "Russian"
+msgstr ""
+
+#: templates/account/profile_edit.html:5
+msgid "Foydalanuvchi ma'lumotlarini o'zgartirish "
+msgstr ""
+
+#: templates/account/profile_edit.html:7
+msgid "Foydalanuvchi ma'lumotlarini o'zgartirish"
+msgstr ""
+
+#: templates/account/profile_edit.html:8
+msgid ""
+"Siz o'zingiz haqingizdagi ma'lumotlarni quyidagi forma orqali "
+"o'zgartirishiziz mumkin: "
+msgstr ""
+
+#: templates/account/profile_edit.html:17
+msgid "O'zgarishlarni saqlash"
+msgstr ""
+
+#: templates/account/register.html:5
+msgid "Ro'yxatdan o'tkazish"
+msgstr ""
+
+#: templates/account/register.html:7
+msgid "Yangi foydalanuvchilarni ro'yxatdan o'tkazish"
+msgstr ""
+
+#: templates/account/register.html:8
+msgid "Ro'yxatdan o'tkazish uchun quyidagi formani to'ldiring: "
+msgstr ""
+
+#: templates/account/register.html:16 templates/news/base.html:90
+msgid "Registration"
+msgstr "Постановка на учет"
+
+#: templates/account/register.html:19
+msgid "Open with Login"
+msgstr ""
+
+#: templates/account/register_done.html:4
+msgid " Muvaffaqiyatli ro'yxatdan o'tdingiz"
+msgstr ""
+
+#: templates/account/register_done.html:6
+msgid " tabriklaymiz ro'yxatdan muvaffaqiyatli o'tdingiz"
+msgstr ""
+
+#: templates/account/register_done.html:7
+msgid "Endi saytga"
+msgstr ""
+
+#: templates/account/register_done.html:7
+#, fuzzy
+#| msgid "Login"
+msgid "login"
+msgstr "Авторизоваться"
+
+#: templates/account/register_done.html:8
+msgid "qilishiz mumkin"
+msgstr ""
+
+#: templates/crud/news_create.html:5
+msgid "  Yangilik qo'shish "
+msgstr ""
+
+#: templates/crud/news_create.html:7
+msgid "Yangilik qo'shish sahifasi"
+msgstr ""
+
+#: templates/crud/news_create.html:11
+msgid "Yangilikni yuklash"
+msgstr ""
+
+#: templates/crud/news_delete.html:4
+msgid " Yangilikni o'chirish"
+msgstr ""
+
+#: templates/crud/news_delete.html:7
+msgid "Joriy yangilikni o'chirish"
+msgstr ""
+
+#: templates/crud/news_delete.html:11
+msgid "sarlavhali yangilikni o'chirmoqchimisiz"
+msgstr ""
+
+#: templates/crud/news_delete.html:12
+msgid "O'chirishni yakunlash"
+msgstr ""
+
+#: templates/crud/news_edit.html:5
+msgid "Yangilikni tahrirlash"
+msgstr ""
+
+#: templates/crud/news_edit.html:7
+msgid "Joriy yangilikni tahrirlash"
+msgstr ""
+
+#: templates/crud/news_edit.html:16
+msgid "Tahrirlashni yakunlash"
+msgstr ""
+
+#: templates/news/base.html:6
+msgid "Asosiy sahifa"
+msgstr "Главная страница"
+
+#: templates/news/base.html:65
+msgid "BOSH SAHIFA"
+msgstr "ГЛАВНАЯ СТРАНИЦА"
+
+#: templates/news/base.html:66
+msgid "BIZ BILAN BOG'LANISH"
+msgstr "СВЯЗАТЬСЯ С НАМИ"
+
+#: templates/news/base.html:69
+msgid "ADMIN SAHIFASI"
+msgstr "СТРАНИЦА АДМИНИСТРАТОРА"
+
+#: templates/news/base.html:80
+msgid "Log out"
+msgstr "Выйти"
+
+#: templates/news/base.html:85
+msgid "My profile"
+msgstr "Мой профайл"
+
+#: templates/news/base.html:138 templates/news/home.html:50
+msgid "Mahalliy"
+msgstr "Местный"
+
+#: templates/news/base.html:139 templates/news/home.html:86
+msgid "Xorij"
+msgstr "За границей"
+
+#: templates/news/base.html:140 templates/news/home.html:118
+msgid "Texnologiya"
+msgstr "Технологии"
+
+#: templates/news/base.html:141 templates/news/home.html:187
+msgid "Sport"
+msgstr "Спорт"
+
+#: templates/news/base.html:142
+msgid "Biz bilan aloqa"
+msgstr "Связаться с нами"
+
+#: templates/news/base.html:178
+msgid "Latest News"
+msgstr "Последние новости"
+
+#: templates/news/base.html:225
+msgid "Kategoriyalar"
+msgstr "Категории"
+
+#: templates/news/contact.html:4
+#, fuzzy
+#| msgid "Biz bilan aloqa"
+msgid "Biz bilan aloqa sahifasi"
+msgstr "Связаться с нами"
+
+#: templates/news/contact.html:11
+#, fuzzy
+#| msgid "Biz bilan aloqa"
+msgid "Biz bilan bog'lanish"
+msgstr "Связаться с нами"
+
+#: templates/news/contact.html:12
+msgid "Biz bilan bog'lanish uchun formani to'ldiring"
+msgstr ""
+
+#: templates/news/home.html:16 templates/news/home.html:32
+#: templates/news/home.html:59 templates/news/home.html:74
+#: templates/news/home.html:94 templates/news/home.html:107
+#: templates/news/home.html:126 templates/news/home.html:139
+#: templates/news/home.html:196 templates/news/home.html:211
+msgid "Ko'rilganlar soni"
+msgstr "Количество просмотров"
+
+#: templates/news/home.html:24
+msgid "So'nggi yangiliklar"
+msgstr "Последние новости"
+
+#: templates/news/home.html:152
+msgid "Photography"
+msgstr "Фотография"
+
+#: templates/news/home.html:226
+msgid "Ommabop"
+msgstr "Популярный"
+
+#: templates/news/home.html:296
+msgid "Sponsor"
+msgstr "Спонсор"
+
+#: templates/news/home.html:299
+#, fuzzy
+#| msgid "Kategoriyalar"
+msgid "Barcha kategoriyalar"
+msgstr "Категории"
+
+#: templates/news/home.html:301
+#, fuzzy
+#| msgid "Kategoriyalar"
+msgid "Kategoriyani tanlang"
+msgstr "Категории"
+
+#: templates/news/home.html:310
+msgid "Blog"
+msgstr "Блог"
+
+#: templates/news/home.html:311
+msgid "Rss Feed"
+msgstr ""
+
+#: templates/news/home.html:312
+msgid "Login"
+msgstr "Авторизоваться"
+
+#: templates/news/home.html:313
+msgid "Life &amp; Style"
+msgstr "Жизнь и жизнь Стиль"
+
+#: templates/news/news_detail.html:27
+msgid "Tahrirlash"
+msgstr ""
+
+#: templates/news/news_detail.html:31
+msgid "O'chirish"
+msgstr ""
+
+#: templates/news/news_detail.html:51
+msgid "Izoh qoldirish"
+msgstr ""
+
+#: templates/news/news_detail.html:55
+msgid "Yuborish"
+msgstr ""
+
+#: templates/news/news_detail.html:61
+msgid "Faqat ro'yxatdan o'tgan foydalanuvchilar izoh qoldirishi mumkin"
+msgstr ""
+
+#: templates/news/news_detail.html:62
+msgid "ro'yxatdan o'ting"
+msgstr ""
+
+#: templates/news/search_result.html:4 templates/news/search_result.html:7
+msgid "Qidiruv natijalari"
+msgstr ""
+
+#: templates/pages/admin_page.html:4 templates/pages/admin_page.html:6
+#, fuzzy
+#| msgid "Asosiy sahifa"
+msgid "Adminlar sahifasi"
+msgstr "Главная страница"
+
+#: templates/pages/admin_page.html:7
+#, fuzzy
+#| msgid "Kategoriyalar"
+msgid "Barcha adminlar"
+msgstr "Категории"
+
+#: templates/pages/admin_page.html:10
+msgid "Username"
+msgstr ""
+
+#: templates/pages/admin_page.html:11
+msgid "Ismi"
+msgstr ""
+
+#: templates/pages/admin_page.html:12
+msgid "Familyasi"
+msgstr ""
+
+#: templates/pages/admin_page.html:24
+msgid "+Yangilik qo'shish"
+msgstr ""

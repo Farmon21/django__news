@@ -1,0 +1,20 @@
+{% extends 'news/base.html' %}
+{% block title %} Mahalliy yangiliklar {% endblock title %}
+{% load static %}
+{% block content %}
+    <div class="container" style="width: 90%">
+        {% for foreign in foreign_news %}
+            <div class="row" style="margin-top: 100px">
+                <div class="col-sm-12">
+                    <a href="">
+                        <img src="{{ foreign.image.url }}" alt="" style="max-width: 900px">
+                    </a>
+                    <a href="">
+                        <h3>{{ foreign.title | slice:":35" }}</h3>
+                    </a>
+                    <p>{{ foreign.body | slice:":50" }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock content %}

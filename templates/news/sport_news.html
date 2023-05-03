@@ -1,0 +1,20 @@
+{% extends 'news/base.html' %}
+{% block title %} Mahalliy yangiliklar {% endblock title %}
+{% load static %}
+{% block content %}
+    <div class="container" style="width: 90%">
+        {% for sport in sport_news %}
+            <div class="row" style="margin-top: 100px">
+                <div class="col-sm-12">
+                    <a href="{% url 'news_detail_page' sport.slug %}">
+                        <img src="{{ sport.image.url }}" alt="" style="max-width: 900px">
+                    </a>
+                    <a href="{% url 'news_detail_page' sport.slug %}">
+                        <h3>{{ sport.title | slice:":35" }}</h3>
+                    </a>
+                    <p>{{ sport.body | slice:":50" }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock content %}

@@ -1,0 +1,10 @@
+{% extends 'news/base.html' %}
+{% load i18n %}
+{% load static %}
+{% block title %}{% blocktranslate %} Muvaffaqiyatli ro'yxatdan o'tdingiz{% endblocktranslate %} {% endblock title %}
+{% block content %}
+    <h1>{{ new_user.first_name }},{% blocktranslate %} tabriklaymiz ro'yxatdan muvaffaqiyatli o'tdingiz{% endblocktranslate %}</h1>
+    <p>{% blocktranslate %}Endi saytga{% endblocktranslate %} <a style="color: #0a53be" href="{% url 'login' %}">{% blocktranslate %}login{% endblocktranslate %}</a>
+        {% blocktranslate %}qilishiz mumkin{% endblocktranslate %}
+    </p>
+{% endblock content %}

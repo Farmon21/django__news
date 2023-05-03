@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% for news in news_list %}
+    <ol>
+        <li>{{news.title}}</li>
+        <li>{{news.body}}</li>
+        <li>{{news.publish_time}}</li>
+        <li><img src="{{ news.image.url }}" alt=""></li>
+    </ol>
+    {% endfor %}
+</body>
+</html>

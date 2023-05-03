@@ -1,0 +1,15 @@
+{% extends 'news/base.html' %}
+{% load i18n %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block title %}{% blocktranslate %}  Yangilik qo'shish {% endblocktranslate %}{% endblock title %}
+{% block content %}
+    <h2>{% blocktranslate %}Yangilik qo'shish sahifasi{% endblocktranslate %}</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form | crispy  }}
+        <button type="submit" class="btn btn-info ml-2">{% blocktranslate %}Yangilikni yuklash{% endblocktranslate %}</button>
+        <br>
+        <br>
+    </form>
+{% endblock content %}

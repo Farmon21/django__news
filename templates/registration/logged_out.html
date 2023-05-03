@@ -1,0 +1,13 @@
+{% extends 'news/base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %} {% blocktrans %}Logout sahifasi{% endblocktrans %} {% endblock title %}
+
+{% block content %}
+    <h2>{% blocktrans %}Web-saytdan chiqdingiz{% endblocktrans %}</h2>
+    <p>{% blocktrans %}Siz web-saytdan chiqdingiz{% endblocktrans %} |
+        <a style="color: blue;" href="{% url 'login' %}">{% blocktrans %}Qaytadan kirish{% endblocktrans %}</a>
+    </p>
+{% endblock content %}
+
